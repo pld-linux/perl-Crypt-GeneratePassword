@@ -10,7 +10,8 @@ Summary(pl):	Crypt::GeneratePassword - generuj bezpieczne, losowe, wymawialne ha
 Name:		perl-Crypt-GeneratePassword
 Version:	0.03
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	65a9e924ba7496ebd13b70d863d8ae1b
