@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	GeneratePassword
+%define		pdir	Crypt
+%define		pnam	GeneratePassword
 Summary:	Crypt::GeneratePassword - generate secure random pronounceable passwords
 Summary(pl):	Crypt::GeneratePassword - generuj bezpieczne, losowe, wymawialne has³a
 Name:		perl-Crypt-GeneratePassword
