@@ -8,12 +8,12 @@
 Summary:	Crypt::GeneratePassword - generate secure random pronounceable passwords
 Summary(pl):	Crypt::GeneratePassword - generuj bezpieczne, losowe, wymawialne has³a
 Name:		perl-Crypt-GeneratePassword
-Version:	0.02
-Release:	2
+Version:	0.03
+Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a361420e59af50a2073f142506a713b0
+# Source0-md5:	65a9e924ba7496ebd13b70d863d8ae1b
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
