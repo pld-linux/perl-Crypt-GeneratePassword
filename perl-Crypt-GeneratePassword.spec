@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	GeneratePassword
 Summary:	Crypt::GeneratePassword - generate secure random pronounceable passwords
-Summary(pl):	Crypt::GeneratePassword - generuj bezpieczne, losowe, wymawialne has³a
+Summary(pl.UTF-8):   Crypt::GeneratePassword - generuj bezpieczne, losowe, wymawialne hasÅ‚a
 Name:		perl-Crypt-GeneratePassword
 Version:	0.03
 Release:	1
@@ -26,12 +26,12 @@ pronounceable.  Unlike Crypt::RandPasswd, it doesn't use the FIPS-181
 NIST standard, which is proven to be insecure.  It does use a similar
 interface, so it should be a drop-in replacement in most cases.
 
-%description -l pl
-Crypt::GeneratePassword generuje losowe has³a, (lepiej lub gorzej)
-wymawialne.  W odró¿nieniu od Crypt::RandPasswd, nie u¿ywa on standardu
-FIPS-181 NIST, który -- jak udowodniono -- nie jest bezpieczny.  U¿ywa za
-to podobnego interfejsu, wiêc zastêpowanie w wiêkszo¶ci przypadków
-powinno byæ bezproblemowe.
+%description -l pl.UTF-8
+Crypt::GeneratePassword generuje losowe hasÅ‚a, (lepiej lub gorzej)
+wymawialne.  W odrÃ³Å¼nieniu od Crypt::RandPasswd, nie uÅ¼ywa on standardu
+FIPS-181 NIST, ktÃ³ry -- jak udowodniono -- nie jest bezpieczny.  UÅ¼ywa za
+to podobnego interfejsu, wiÄ™c zastÄ™powanie w wiÄ™kszoÅ›ci przypadkÃ³w
+powinno byÄ‡ bezproblemowe.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
