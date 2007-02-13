@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	GeneratePassword
 Summary:	Crypt::GeneratePassword - generate secure random pronounceable passwords
-Summary(pl.UTF-8):   Crypt::GeneratePassword - generuj bezpieczne, losowe, wymawialne hasła
+Summary(pl.UTF-8):	Crypt::GeneratePassword - generuj bezpieczne, losowe, wymawialne hasła
 Name:		perl-Crypt-GeneratePassword
 Version:	0.03
 Release:	1
