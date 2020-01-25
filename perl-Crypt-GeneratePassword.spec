@@ -4,7 +4,6 @@
 
 %define		pdir	Crypt
 %define		pnam	GeneratePassword
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::GeneratePassword - generate secure random pronounceable passwords
 Summary(pl.UTF-8):	Crypt::GeneratePassword - generuj bezpieczne, losowe, wymawialne hasła
 Name:		perl-Crypt-GeneratePassword
